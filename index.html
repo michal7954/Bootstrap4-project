@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="fakeimg" style="background-color: rgb(255, 199, 199);"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="fakeimg" style="background-color: rgb(175, 255, 199);"></div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="fakeimg" style="background-color: rgb(207, 202, 255);"></div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse " id="navb">
+
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <form class="form-inline p-0 m-0">
+            <input class="form-control mr-4" type="text" placeholder="Search">
+            <button class="btn btn-success">Search</button>
+        </form>
+
+    </nav>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-xl-3 order-xl-2 col-sm-6 order-sm-1 bg-primary">
+                <div class="card m-4">
+                    <img class="card-img-top" src="gfx/1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 order-xl-3 col-sm-6 order-sm-2  bg-secondary">
+                <h2>
+                    Linki
+                </h2>
+                <a href="#" class="btn btn-secondary w-100 mb-4">Link btn-secondary</a>
+                <a href="#" class="btn btn-primary w-100 mb-4">Link btn-primary</a>
+                <a href="#" class="btn btn-success w-100 mb-4">Link btn-success</a>
+                <a href="#" class="btn btn-info w-100 mb-4">Link btn-info</a>
+                <a href="#" class="btn btn-warning w-100 mb-4">Link btn-warning</a>
+                <a href="#" class="btn btn-danger w-100 mb-4">Link btn-danger</a>
+            </div>
+            <div class="col-xl-6 order-xl-1 col-sm-12 order-sm-3 bg-warning">
+                <h1 class="display-4">About website</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed venenatis nunc. Maecenas nec augue dolor.
+                    Suspendisse potenti. Nam pharetra magna at dolor tincidunt, sit amet aliquam erat venenatis. Maecenas
+                    tristique ultrices nisl vel tempor. Nunc viverra odio sed interdum molestie. Quisque sagittis placerat
+                    pellentesque. Pellentesque dignissim ultrices nisl, vel ornare nisl cursus a. Vivamus malesuada eu leo
+                    at sagittis. Donec rutrum mauris vitae interdum pretium. Praesent faucibus ut odio vitae elementum. Morbi
+                    egestas pulvinar odio sed porttitor. Proin vulputate ultrices purus nec tincidunt. Fusce quis finibus
+                    leo. Aenean venenatis porta ligula sit amet pharetra. Aliquam in pretium augue. Mauris eu volutpat nisi,
+                    non fermentum lorem. Nullam ut ornare nibh, sit amet molestie magna. Nam quis posuere diam, eu pretium
+                    nunc. Sed tempus ligula consequat fringilla imperdiet. Suspendisse at metus justo. Sed maximus, nisl
+                    eu congue imperdiet, lorem magna dictum velit, eu vulputate odio justo eget nulla. Vivamus dictum, nisi
+                    in facilisis lobortis, risus nibh aliquam urna, id ornare erat justo non velit. Suspendisse ornare hendrerit
+                    tincidunt. Vivamus in nisi sit amet dolor imperdiet iaculis. Fusce rhoncus placerat tristique. Maecenas
+                    eu urna lacus. Donec convallis enim nisi, sagittis gravida nulla fermentum luctus. Aliquam erat volutpat.
+                    Etiam nibh diam, pellentesque id pellentesque quis, imperdiet a neque. Praesent et dui ut nibh hendrerit
+                    laoreet a ut dui. Quisque in est ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                    fames ac turpis egestas. Nam nec augue in magna posuere fermentum eget eget mi. Duis non gravida sem.
+                    Mauris a purus nibh. </p>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 table-responsive p-0 bg-dark">
+                <table class="table table-dark table-striped m-0">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6 bg-dark">
+                <div class="container-fluid p-0">
+                    <div class="row">
+                        <div class="col-sm-6 p-0">
+                            <img class="img-fluid rounded" src="gfx/1.jpg" alt="Chania">
+                        </div>
+                        <div class="col-sm-6 p-0">
+                            <img class="img-fluid img-thumbnail" src="gfx/3.jpg" alt="Chania">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 p-0">
+                            <img class="img-fluid img-thumbnail " src="gfx/3.jpg" alt="Chania">
+                        </div>
+                        <div class="col-sm-6 p-0">
+                            <img class="img-fluid rounded" src="gfx/1.jpg" alt="Chania">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-around p-3 bg-secondary text-white">
+            <div class="p-2 bg-info">Flex item 1</div>
+            <div class="p-2 bg-warning">Flex item 2</div>
+            <div class="p-2 bg-primary">Flex item 3</div>
+        </div>
+    </div>
+
+
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p>Footer</p>
+    </div>
+
+
+
+</body>
+
+
+</html>
